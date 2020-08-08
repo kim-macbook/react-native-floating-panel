@@ -1,1 +1,3 @@
-export { default as FloatingPanel } from "./FloatingPanel";
+import FloatingPanel from "./components/FloatingPanel";
+
+export default FloatingPanel;

@@ -10,7 +10,11 @@
   "author": "kim-macbook <creator@hanyang.ac.kr>",
   "license": "MIT",
   "devDependencies": {
+    "@types/react": "^16.9.45",
+    "@types/react-native": "^0.63.5",
     "metro-react-native-babel-preset": "^0.61.0",
+    "react": "^16.13.1",
+    "react-native": "^0.63.2",
     "typescript": "^3.9.7"
   },
   "scripts": {

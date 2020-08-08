@@ -3,7 +3,7 @@
   "version": "1.0.11",
   "description": "React Native Floating Swipeable Panel",
   "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "repository": "https://github.com/kim-macbook/react-native-floating-panel.git",
   "author": "kim-macbook <creator@hanyang.ac.kr>",
   "license": "MIT",
@@ -20,6 +20,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "build:types": "tsc --emitDeclarationOnly",
     "npm": "npm version patch && npm publish"
   }
 }

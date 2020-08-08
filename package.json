@@ -9,13 +9,7 @@
   "repository": "https://github.com/kim-macbook/react-native-floating-panel.git",
   "author": "kim-macbook <creator@hanyang.ac.kr>",
   "license": "MIT",
-  "dependencies": {
-    "react": "^16.13.1",
-    "react-native": "^0.63.2"
-  },
   "devDependencies": {
-    "@types/react": "^16.9.44",
-    "@types/react-native": "^0.63.5",
     "metro-react-native-babel-preset": "^0.61.0",
     "typescript": "^3.9.7"
   },

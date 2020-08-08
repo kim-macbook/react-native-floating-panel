@@ -1,0 +1,25 @@
+import React from "react";
+import { Animated } from "react-native";
+export declare type SwipeablePanelProps = {
+    isActive: boolean;
+    onClose: () => void;
+    showCloseButton?: boolean;
+    fullWidth?: boolean;
+    noBackgroundOpacity?: boolean;
+    style?: object;
+    closeRootStyle?: object;
+    closeIconStyle?: object;
+    closeOnTouchOutside?: boolean;
+    onlyLarge?: boolean;
+    onlySmall?: boolean;
+    openLarge?: boolean;
+    noBar?: boolean;
+    barStyle?: object;
+    allowTouchOutside?: boolean;
+    children?: React.ReactNode;
+    pan: Animated.ValueXY;
+};
+declare const SwipeablePanel: ({ style, onClose, fullWidth, closeRootStyle, closeIconStyle, openLarge, onlyLarge, onlySmall, showCloseButton, noBar, closeOnTouchOutside, allowTouchOutside, barStyle, isActive, noBackgroundOpacity, children, pan, }: SwipeablePanelProps) => JSX.Element | null;
+export default SwipeablePanel;
+export declare const SMALL_PANEL_CONTENT_HEIGHT: number;
+export declare const LARGE_PANEL_CONTENT_HEIGHT: number;

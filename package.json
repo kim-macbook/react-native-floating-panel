@@ -1,6 +1,6 @@
 {
   "name": "react-native-floating-panel",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "React Native Floating Swipeable Panel",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

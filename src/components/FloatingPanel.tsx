@@ -29,10 +29,8 @@ export default function FloatingPanel({
   statusBarStyle,
   ...panelProps
 }: {
-  children: React.ReactNode;
   panelContent: () => JSX.Element;
   statusBarStyle: "dark-content" | "light-content";
-  isActive: boolean;
 } & Omit<SwipeablePanelProps, "pan">) {
   const animation = useRef(new Animated.ValueXY({ x: 0, y: FULL_HEIGHT }));
   return (

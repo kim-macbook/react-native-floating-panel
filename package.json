@@ -19,7 +19,6 @@
   },
   "scripts": {
     "build": "tsc",
-    "build:types": "tsc --emitDeclarationOnly",
-    "npm": "npm version patch && npm publish"
+    "build:types": "tsc --emitDeclarationOnly"
   }
 }

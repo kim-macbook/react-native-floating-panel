@@ -3,7 +3,7 @@
   "version": "1.0.16",
   "description": "React Native Floating Swipeable Panel",
   "main": "dist/index.js",
-  "types": "dist/types/index.d.ts",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/kim-macbook/react-native-floating-panel.git",
   "author": "kim-macbook <creator@hanyang.ac.kr>",
   "license": "MIT",
@@ -13,12 +13,11 @@
     "metro-react-native-babel-preset": "^0.61.0",
     "typescript": "^3.9.7"
   },
-  "peerDependencies": {
+  "dependencies": {
     "react": "^16.13.1",
     "react-native": "^0.63.2"
   },
   "scripts": {
-    "build": "tsc",
-    "build:types": "tsc --emitDeclarationOnly"
+    "build": "rm -rf ./dist && tsc"
   }
 }

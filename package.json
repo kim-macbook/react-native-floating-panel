@@ -7,20 +7,19 @@
   "repository": "https://github.com/kim-macbook/react-native-floating-panel.git",
   "author": "kim-macbook <creator@hanyang.ac.kr>",
   "license": "MIT",
-  "peerDependencies": {
-    "react": ">=16.0.0"
-  },
   "devDependencies": {
     "@types/react": "^16.9.45",
     "@types/react-native": "^0.63.5",
     "metro-react-native-babel-preset": "^0.61.0",
-    "react": "^16.13.1",
-    "react-native": "^0.63.2",
     "typescript": "^3.9.7"
   },
   "scripts": {
     "build": "tsc",
     "build:types": "tsc --emitDeclarationOnly",
     "npm": "npm version patch && npm publish"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-native": "^0.63.2"
   }
 }
